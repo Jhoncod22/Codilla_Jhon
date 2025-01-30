@@ -7,14 +7,31 @@
 </head>
 <body>
     <title> Welcome To Codilla_Page </title>
-<h1> Welcome To My Page</h1>
-<br> <a href = "Home.html" >Home</a>
- <br></H1> <a href = "About.html">About</a>
- <br> <a href = "Services.html">Services</a>
- <br> <a href = "Pages.html">Pages</a>
- <br> <a href = "Blog.html">Blog</a>
- <br> <a href = "Contacts.html">Contacts</a>
+<h1> Welcome To My Page:</h1>
+<a href="HOME.HTML">HOME</a> <br>
+    <a href="ABOUT.HTML">ABOUT</a> <br>
+    <a href="SERVICES.HTML">SERVICES</a> <br>
+    <a href="PAGES.HTML">PAGE</a> <br>
+    <a href="BLOG.HTML">BLOG</a> <br>
+    <a href="CONTACT.HTML">CONTACT</a> <br><br>
+<!-- Login Form -->
+    <h3>Log-in Form:</h3>
+    <form action="login_process.php" method="POST">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
 
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
 
-</body>
+      <button type="submit" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Login 
+      </button>
+    </form>
+    <br><br>
+
+    <!-- Link to Sign up page (optional) -->
+    <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+
+  </body>
 </html>
+
